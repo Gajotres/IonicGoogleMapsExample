@@ -21,7 +21,7 @@ nameApp.controller('HomeCtrl', function($scope, uiGmapGoogleMapApi) {
   }
 
   $scope.options = {
-    enableHighAccuracy: false,
+    enableHighAccuracy: true,
     timeout: 50000,
     maximumAge: 0
   };
