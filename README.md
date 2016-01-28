@@ -7,9 +7,10 @@ Follow these instruction to deploy this example:
 3. ionic platform add android
 4. cordova plugin add cordova-plugin-whitelist
 5. Find AndroidManifest.xml and add these lines:
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+
+    &lt;uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/&gt;<br/>
+    &lt;uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/&gt;<br/>
+    &lt;uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/&gt;<br/>
 6. npm install
 7. ionic serve -> To see if everything is working as it should
 8. ionic run android -l -c -s
